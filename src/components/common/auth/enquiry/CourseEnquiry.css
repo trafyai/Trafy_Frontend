@@ -1,0 +1,102 @@
+.course-enquiry-form{
+    padding-top: 120px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content:center;
+}
+.course-enquiry-form-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.course-enquiry-form-contents{
+    width: 450px;
+    padding: 48px 32px;
+    border: 1px solid #e4e4e4;
+    border-radius: 24px;
+    box-shadow: 0px 0px 5px 0px rgb(227 222 222);
+}
+.enquiryform{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+}
+.enquiryform-heading h2{
+    font-size: 32px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.enquiryfname, .enquirylname, .enquiryemail, .enquiryphone, .enquirymessage{
+    width: 100%;
+  
+}
+
+.enquiry-fname, .enquiry-lname, .enquiry-email, .enquiry-phone{
+    width: 100%;
+    height: 45px;
+    padding: 12px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    border: 1px solid #cacaca;
+    border-radius: 8px;
+    background-color: var( --h-text-w-clr); 
+}
+.enquiry-message{
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    border: 1px solid #cacaca;
+    border-radius: 8px;
+    background-color:  var( --h-text-w-clr);  
+    height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+.enquiry-fname:focus, .enquiry-lname:focus, .enquiry-email:focus, .enquiry-phone:focus, .enquiry-message:focus{
+outline-style: none;
+}
+.course-enquiry-button{
+    width: 100%;
+    height: max-content;
+    padding: 8px 16px;
+    border: 2px solid  var( --h-text-b-clr); 
+    background-color: var( --h-text-b-clr); 
+    color:  var( --h-text-w-clr); 
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 500;
+    font-family: 'Inter',sans-serif;
+}
+.course-enquiry-button:hover{
+    background-color: inherit;
+    color:  var( --h-text-b-clr); 
+}
+@media only screen and (max-width:1200px){
+    .course-enquiry-form-contents{
+        width: 40%;
+    }
+}
+@media only screen and (max-width:900px){
+    .course-enquiry-form-contents{
+        width: 55%;
+    }
+    .enquiryform-heading h2{
+        font-size: 32px;
+        text-align: left;
+    }
+}
+@media only screen and (max-width:600px){
+    .course-enquiry-form-contents{
+        width: 90%;
+    }
+    .enquiryform-heading h2{
+        font-size: 28px;
+    }
+}

@@ -1,0 +1,13 @@
+# .gitignore
+
+# Node.js
+node_modules/
+
+# Build output
+build/
+dist/
+*.log
+
+# Other
+.DS_Store
+.env

@@ -1,0 +1,7 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow: /static/css/main.f19caf8c.css
+Disallow: /index.css
+Disallow: /static/js/main.945deda8.js
+
+Sitemap: https://trafyai.com/sitemap.xml

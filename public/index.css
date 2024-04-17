@@ -1,0 +1,28 @@
+:root {
+  
+  --h-text-b-clr:#1c1623;
+  --p-text-b-clr:#3f3f3f;
+  --trafy-purple:#6D28D9;
+  --h-text-w-clr:#fcfefe;
+  --h-text-w-alt-clr:#fdfdfd;
+  --p-text-w-clr:#e2e2e2;
+  --uiux-bg-clr:#f9f7ff;
+  --uiux-o-bg-clr:#f4f0ff;
+  --landing-heading-clr:#fcf;
+  --h-font:'Raleway', sans-serif;
+  --p-font:'Inter', sans-serif;
+
+}
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  body {
+    margin: 0;
+    overflow-y: scroll;
+  }

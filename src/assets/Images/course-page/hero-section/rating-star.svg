@@ -1,0 +1,32 @@
+<svg width="96" height="20" viewBox="0 0 96 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_188_310" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="76" y="0" width="20" height="20">
+<rect x="76.8" width="19.2" height="19.2" fill="#F0D43E"/>
+</mask>
+<g mask="url(#mask0_188_310)">
+<path d="M86.3999 6.50039V12.7404L88.9199 14.2804L88.2599 11.4004L90.4799 9.48039L87.5599 9.22039L86.3999 6.50039ZM81.4599 17.6004L82.7599 11.9804L78.3999 8.20039L84.1599 7.70039L86.3999 2.40039L88.6399 7.70039L94.3999 8.20039L90.0399 11.9804L91.3399 17.6004L86.3999 14.6204L81.4599 17.6004Z" fill="#F0D43E"/>
+</g>
+<mask id="mask1_188_310" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
+<rect width="19.2" height="19.2" fill="#F0D43E"/>
+</mask>
+<g mask="url(#mask1_188_310)">
+<path d="M4.6601 17.6004L5.9601 11.9804L1.6001 8.20039L7.3601 7.70039L9.6001 2.40039L11.8401 7.70039L17.6001 8.20039L13.2401 11.9804L14.5401 17.6004L9.6001 14.6204L4.6601 17.6004Z" fill="#F0D43E"/>
+</g>
+<mask id="mask2_188_310" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="19" y="0" width="20" height="20">
+<rect x="19.2" width="19.2" height="19.2" fill="#F0D43E"/>
+</mask>
+<g mask="url(#mask2_188_310)">
+<path d="M23.86 17.6004L25.16 11.9804L20.8 8.20039L26.56 7.70039L28.8 2.40039L31.04 7.70039L36.8 8.20039L32.44 11.9804L33.7401 17.6004L28.8 14.6204L23.86 17.6004Z" fill="#F0D43E"/>
+</g>
+<mask id="mask3_188_310" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="38" y="0" width="20" height="20">
+<rect x="38.3999" width="19.2" height="19.2" fill="#F0D43E"/>
+</mask>
+<g mask="url(#mask3_188_310)">
+<path d="M43.06 17.6004L44.36 11.9804L40 8.20039L45.76 7.70039L48 2.40039L50.24 7.70039L56 8.20039L51.64 11.9804L52.94 17.6004L48 14.6204L43.06 17.6004Z" fill="#F0D43E"/>
+</g>
+<mask id="mask4_188_310" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="57" y="0" width="20" height="20">
+<rect x="57.6001" width="19.2" height="19.2" fill="#F0D43E"/>
+</mask>
+<g mask="url(#mask4_188_310)">
+<path d="M62.2602 17.6004L63.5602 11.9804L59.2002 8.20039L64.9602 7.70039L67.2002 2.40039L69.4402 7.70039L75.2002 8.20039L70.8402 11.9804L72.1402 17.6004L67.2002 14.6204L62.2602 17.6004Z" fill="#F0D43E"/>
+</g>
+</svg>

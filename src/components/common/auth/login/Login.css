@@ -1,0 +1,164 @@
+
+  .login{
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 60px;
+    background-color: var(--h-text-w-clr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container{
+    width:350px;
+    padding: 24px;
+    border: 0;
+    box-shadow: 0px 0px 5px 0px rgba(161,161,161,1);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2.5rem;
+    margin: 32px;
+}
+.login-heading h1{ 
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    
+}
+.form{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1.5rem;
+}
+.Name{
+    width: 100%;
+    display: flex;
+    gap:1.5rem;
+
+}
+.fname-holder,.lname-holder, .email-holder ,.password-holder, .phone-holder{
+   width: 100%;
+   height: 40px;
+   padding: 8px;
+   font-size: 16px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   border: 1px solid grey;
+   border-radius: 8px;
+   background-color: var(--h-text-w-clr);
+}
+.fname-holder:focus,.lname-holder:focus, .email-holder:focus ,.password-holder:focus{
+    outline-style: none;
+}
+.Email{
+    width: 100%;
+}
+.Password{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+}
+.password-input,.confirm-password-input{
+    display: flex;
+
+}
+.password-input{
+    flex-direction: column;
+}
+.password-input,
+.confirm-password-input {
+  position: relative;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+}
+
+
+.eye{
+  position: absolute;
+  top: 22%;
+  transform: translateY(-50%);
+  right: 10px;
+  cursor: pointer;
+  color: #4b4949;
+}
+
+.password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust as needed */
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
+.login-button{
+    width: 100%;
+}
+.login-btn{
+    width: 100%;
+    padding: 8px 16px;
+    color: var(--h-text-w-clr);
+    background-color: var(--h-text-b-clr);
+    border: 2px solid var(--h-text-b-clr);
+    border-radius: 8px;
+    font-size: 16px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+}
+.login-btn:hover{
+    color: var(--h-text-b-clr);
+    background-color: var(--h-text-w-clr);
+}
+.form p{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: rgb(78, 79, 79);
+}
+.error-message {
+    font-family: "Roboto", sans-serif;
+    color: red;
+    font-size: 12.5px;
+    padding-top: 4px;
+  }
+  
+  .email-holder.error {
+    border-color: red;
+  }
+  @media only screen and (max-width:600px){
+    .login-heading h1{
+        font-size: 24px;
+    }
+  }
+  
+  @media only screen and (max-width:500px){
+    .login-container{
+        width: 95%;
+        gap:1.5rem;
+    }
+    .form{
+        gap:1rem;
+    }
+    .Name{
+        flex-direction: column;
+        gap:1rem;
+    }
+  }
+  @media only screen and (max-width:400px){
+    .login-container{
+        margin: 16px;
+    }
+  }
+
+.forgot-password-link
+{
+    color: blue;
+}
