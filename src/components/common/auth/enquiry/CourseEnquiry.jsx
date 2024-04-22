@@ -66,7 +66,7 @@ const EnquiryForm = () => {
         try {
             const res = await fetch('https://courseenquiryform-default-rtdb.firebaseio.com/EnquiryFormData.json', options);
             if (res.ok) {
-                axios.post("http://localhost:5000/submit", { email })
+                axios.post("http://107.23.48.8:5000/submit", { email })
                 .then(response => {
                     console.log(response.data);
                     window.alert("Thank you for submitting the form.");
